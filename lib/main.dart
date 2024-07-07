@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:silani_practise/stack.dart';
+import 'package:silani_practise/tabview.dart';
 
 void main() {
   runApp(Sylani());
@@ -17,7 +18,7 @@ class _SylaniState extends State<Sylani> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Stack_Example(),
+      home: TabBAr(),
     );
   }
 }
