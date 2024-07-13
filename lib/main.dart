@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:silani_practise/customTabBar.dart';
 import 'package:silani_practise/stack.dart';
 import 'package:silani_practise/tabview.dart';
 
@@ -18,7 +19,7 @@ class _SylaniState extends State<Sylani> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: TabBAr(),
+      home: CustomTabBAr(),
     );
   }
 }
