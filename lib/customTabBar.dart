@@ -12,6 +12,7 @@ class _CustomTabBArState extends State<CustomTabBAr> {
 
   @override
   Widget build(BuildContext context) {
+    print('object');
     return Scaffold(
       body: Column(
         children: [
