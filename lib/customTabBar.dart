@@ -15,7 +15,7 @@ class _CustomTabBArState extends State<CustomTabBAr> {
     return Scaffold(
       body: Column(
         children: [
-          SizedBox(
+          const SizedBox(
             height: 70,
           ),
           Row(
@@ -33,10 +33,10 @@ class _CustomTabBArState extends State<CustomTabBAr> {
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
                       color: isSelected ? Colors.red : Colors.green),
-                  child: Center(child: Text('Container1')),
+                  child: const Center(child: Text('Container1')),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 width: 20,
               ),
               GestureDetector(
@@ -51,12 +51,12 @@ class _CustomTabBArState extends State<CustomTabBAr> {
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20),
                       color: isSelected ? Colors.green : Colors.red),
-                  child: Center(child: Text('Container1')),
+                  child: const Center(child: Text('Container1')),
                 ),
               )
             ],
           ),
-          SizedBox(
+          const SizedBox(
             height: 50,
           ),
           Padding(

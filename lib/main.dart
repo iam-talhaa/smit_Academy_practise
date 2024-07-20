@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:silani_practise/customTabBar.dart';
 import 'package:silani_practise/onboardScreen.dart';
-import 'package:silani_practise/stack.dart';
-import 'package:silani_practise/tabview.dart';
 
 void main() {
-  runApp(Sylani());
+  runApp(const Sylani());
 }
 
 class Sylani extends StatefulWidget {
@@ -18,7 +15,7 @@ class Sylani extends StatefulWidget {
 class _SylaniState extends State<Sylani> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: OnboradScreen(),
     );

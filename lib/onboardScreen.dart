@@ -10,7 +10,7 @@ class OnboradScreen extends StatefulWidget {
 class _OnboradScreenState extends State<OnboradScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [Center(child: Text('ONBORADIGN SCREEN'))],

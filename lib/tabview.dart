@@ -15,11 +15,11 @@ class _TabBArState extends State<TabBAr> {
       child: Scaffold(
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
-          child: Icon(Icons.add),
+          child: const Icon(Icons.add),
         ),
         appBar: AppBar(
-          title: Text('Tab Bar'),
-          bottom: TabBar(
+          title: const Text('Tab Bar'),
+          bottom: const TabBar(
               unselectedLabelColor: Colors.green,
               labelColor: Colors.black,
               indicatorColor: Colors.green,

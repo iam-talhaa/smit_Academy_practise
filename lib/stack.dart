@@ -12,7 +12,7 @@ class _Stack_ExampleState extends State<Stack_Example> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('STACK'),
+        title: const Text('STACK'),
       ),
       body: Column(
         children: [
@@ -36,11 +36,11 @@ class _Stack_ExampleState extends State<Stack_Example> {
                   width: 300,
                   decoration: BoxDecoration(
                       border: Border.all(color: Colors.grey),
-                      boxShadow: [
+                      boxShadow: const [
                         BoxShadow(offset: Offset.zero, color: Colors.black)
                       ],
                       borderRadius: BorderRadius.circular(15),
-                      color: Color.fromARGB(244, 255, 255, 255)),
+                      color: const Color.fromARGB(244, 255, 255, 255)),
                 ),
               ),
               Positioned(
@@ -49,7 +49,7 @@ class _Stack_ExampleState extends State<Stack_Example> {
                 child: Container(
                   height: 80,
                   width: 80,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                       image: DecorationImage(
                           fit: BoxFit.cover,
                           image: NetworkImage(
@@ -67,7 +67,7 @@ class _Stack_ExampleState extends State<Stack_Example> {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
                   ),
-                  child: Column(
+                  child: const Column(
                     children: [
                       Text(
                         "Talha Khan",
@@ -126,7 +126,7 @@ class _Stack_ExampleState extends State<Stack_Example> {
                   ),
                 ),
               ),
-              Positioned(
+              const Positioned(
                 top: 310,
                 left: 20,
                 child: Text(
@@ -139,7 +139,7 @@ class _Stack_ExampleState extends State<Stack_Example> {
                 child: Container(
                     height: 120,
                     width: 360,
-                    decoration: BoxDecoration(),
+                    decoration: const BoxDecoration(),
                     child: ListView(
                       scrollDirection: Axis.horizontal,
                       children: [
@@ -149,7 +149,7 @@ class _Stack_ExampleState extends State<Stack_Example> {
                             height: 50,
                             width: 120,
                             decoration: BoxDecoration(
-                                color: Color.fromARGB(255, 201, 88, 191),
+                                color: const Color.fromARGB(255, 201, 88, 191),
                                 borderRadius: BorderRadius.circular(15)),
                           ),
                         ),
@@ -169,7 +169,7 @@ class _Stack_ExampleState extends State<Stack_Example> {
                             height: 50,
                             width: 120,
                             decoration: BoxDecoration(
-                                color: Color.fromARGB(255, 244, 160, 34),
+                                color: const Color.fromARGB(255, 244, 160, 34),
                                 borderRadius: BorderRadius.circular(15)),
                           ),
                         ),
