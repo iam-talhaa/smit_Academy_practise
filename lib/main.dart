@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:silani_practise/onboardScreen.dart';
+import 'package:silani_practise/BottomNavigation%20.dart';
 
 void main() {
   runApp(const Sylani());
@@ -15,9 +15,6 @@ class Sylani extends StatefulWidget {
 class _SylaniState extends State<Sylani> {
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: OnboradScreen(),
-    );
+    return MaterialApp(debugShowCheckedModeBanner: false, home: BottomNavBar());
   }
 }
